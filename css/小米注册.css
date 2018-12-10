@@ -1,0 +1,295 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif}h1,h2,h3,h4,h5,h6{font-size:100%}
+address,cite,dfn,em,var{font-style:normal}code,kbd,pre,samp{font-family:courier new,courier,monospace}
+small{font-size:12px}ol,ul{list-style:none}a{text-decoration:none}sup{vertical-align:text-top}sub{vertical-align:text-bottom}
+legend{color:#000}fieldset,img{border:0;display: block;}button,input,select,textarea{font-size:100%}table{border-collapse:collapse;border-spacing:0}
+
+.container-middle{
+    width: 860px;
+    height: 630px;
+    background-color: #ffffff;
+    margin:0 auto;
+}
+
+.container{
+    background-color: #f9f9f9;
+}
+
+.xiaomi-brand{
+    width: 786px;
+    height:88px;
+    margin: 0 auto;
+    /*margin-bottom: 40px;*/
+}
+
+.xiaomi-brand a{
+    width: 49px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    cursor: default;
+    background-image: url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/milogo.png);
+}
+
+.t_c{
+    text-align: center;
+}
+
+.title_big30{
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.5;
+    font-family: 黑体;
+}
+
+.regbox{
+    padding-top: 30px;
+}
+
+.phone_step1{
+    width: 332px;
+    height: 246px;
+    margin: auto;
+    /*background-color: #999999;*/
+    /*background-color: #999999;*/
+}
+.phone_step1 h4{
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    color: #333;
+}
+.reg-select-regions{
+    width: 332px;
+    height: 42px;
+    line-height: 40px;
+    border: 1px solid #e8e8e8;
+}
+
+.result-select-regions{
+    width: 275px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+    float: left;
+    border-right: 1px solid #e8e8e8;
+    cursor: pointer;
+    margin-left: 15px;
+    color: #666666;
+}
+.region_tip_text{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #ff6700;
+    font-family: 黑体;
+}
+.icon_cirarr{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 11px 12px 0 12px;
+    background: url(https://account.xiaomi.com/static/res/0eeaaed/passport/oauth/images/icon_user.png);
+    cursor: pointer;
+}
+/*.listwrap_inside_panel{*/
+    /*border: 1px solid #e8e8e8;*/
+/*}*/
+.listwrap{
+    display: inline-block;
+    width: 74px;
+    height: 42px;
+    /*background-color: #00d20d;*/
+    text-align: center;
+    padding: 0 9px;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+}
+
+#select-cycode-result{
+    float: left;
+    display: inline-block;
+    width: 23px;
+    height: 40px;
+    line-height: 40px;
+    color: #666666;
+    cursor:pointer;
+}
+
+.icon_arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    margin: 17px 0 0 10px;
+    border-color: #9d9d9d transparent transparent transparent;
+    float: left;
+    cursor: pointer;
+}
+
+.inputbg{
+    display: inline-block;
+    float: right;
+    border: 1px solid #e8e8e8;
+}
+
+#inputbg-con{
+    width: 246px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+#sign-up{
+    width: 332px;
+    height: 42px;
+    margin-top: 35px;
+    background-color: #ff6700;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.select-privacy{
+    display: block;
+    margin: 0 auto;
+    margin-top: 85px;
+    width: 700px;
+    text-align: center;
+    color: #9d9d9d;
+    font-size: 14px;
+}
+
+.select-privacy a{
+    color: #333333;
+    font-weight: bold;
+}
+
+.select-privacy .icon_select{
+    background: url("../img/注册/隐私.png");
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: -4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*##################################nav-botton##########################*/
+.nav_botton{
+    width: 100%;
+}
+
+.nav_botton ul{
+    display: block;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.nav_botton ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav_botton ul li a{
+    color: #757575;
+    font-size: 14px;
+    font-family: 黑体;
+}
+
+.nav_botton ul li a:hover{
+    color: #333333;
+}
+
+.nav_botton p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #757575;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 黑体;
+}
+
+/*#####################点击显示地区###############################*/
+.country-container-panel,.country-tel-container-panel{
+    position: absolute;
+    width: 332px;
+    height: 270px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid gainsboro;
+    font-family: "微軟正黑體";
+    font-size: 14px;
+    background-color: white;
+}
+
+.country-container{
+    width: 314px;
+    height: auto;
+    background-color: white;
+}
+
+.search-code{
+    width: 314px;
+    height:54px;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.search-code-input{
+    width: 274px;
+    height: 22px;
+    line-height: 22px;
+    padding: 5px 10px 5px 10px;
+    display: block;
+    border: 1px solid #e0e0e0;
+    outline: none;
+}
+.country-container-panel .record span {
+    height: 39px;
+    overflow: hidden;
+}
+
+.header{
+    width: 314px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #fcdecc;
+    line-height: 30px;
+}
+.record-country{
+    float: left;
+    color: #000;
+    cursor: pointer;
+    line-height: 39px;
+}
+
+.record-phone{
+    float: right;
+    line-height: 39px;
+    font-size: 13px;
+    color: #9d9d9d;
+    font-family: "黑体";
+}
+
+.clearfix,.clearfix-phone {
+    display: list-item;
+    height: 39px;
+    padding-left: 10px;
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
+    background-color: white;
+}
+
+.country-hiden{
+    display: none;
+}

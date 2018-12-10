@@ -1,0 +1,233 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif}h1,h2,h3,h4,h5,h6{font-size:100%}
+address,cite,dfn,em,var{font-style:normal}code,kbd,pre,samp{font-family:courier new,courier,monospace}
+small{font-size:12px}ol,ul{list-style:none}a{text-decoration:none}sup{vertical-align:text-top}sub{vertical-align:text-bottom}
+legend{color:#000}fieldset,img{border:0;display: block;}button,input,select,textarea{font-size:100%}table{border-collapse:collapse;border-spacing:0}
+
+
+.h_panel{
+    width: 1130px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #9c95ef;
+    background: url("../img/注册/小米商城.png") no-repeat;
+}
+
+.login_banner_panel{
+    height: 528px;
+    background-color: #9c95ef;
+    background: url("../img/注册/logo.jpg") no-repeat center ;
+}
+
+.nav_botton{
+    width: 100%;
+}
+
+ul{
+    display: block;
+    position: relative;
+    margin-top: 140px;
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul li a{
+    color: #757575;
+    font-size: 14px;
+}
+
+ul li a:hover{
+    color: #333333;
+}
+
+.nav_botton p{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #757575;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*##############################注册页面#######################*/
+
+.login_a{
+    position: absolute;
+    height: 528px;
+    width: 100%;
+}
+
+.login{
+    width: 410px;
+    height: 500px;
+    margin-top: 28px;
+    float: right;
+    margin-right: 110px;
+    background-color: white;
+}
+
+.login-header{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+.login-header a{
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    height: 24px;
+    margin: 28px auto;
+    font-weight: bold;
+}
+
+#line{
+    /*margin: 0 30px;*/
+    font-size: 25px;
+    color: #e0e0e0;
+
+}
+
+.login-header a:first-child{
+    color: #f56600;
+    margin-right: 30px;
+}
+
+.login-header a:last-child:hover{
+    color: #f56600;
+}
+
+.login-header a:last-child{
+    color: #666666;
+    margin-left: 30px;
+}
+
+.login_c {
+    margin-top:10px ;
+}
+
+.login_c input{
+    width: 350px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+    outline: none;
+    font-size: 14px;
+    color: #bbb;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.login_c input:nth-child(2){
+    margin-top: 15px;
+}
+
+.login_c input:last-child{
+    margin-top: 25px;
+    background-color: #f56600;
+    border:none;
+    color: white;
+    font-weight: bold;
+}
+
+.login_q {
+    width: 350px;
+    margin: 10px auto;
+}
+
+.login_q > a{
+    color: #f56600;
+}
+
+.login_q_right{
+    float: right;
+}
+
+.login_q_right a{
+    color: #999999;
+}
+
+/*############################css sprites#########################*/
+
+fieldset{
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+legend{
+    color: #bbb;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.other-method {
+    width: 350px;
+    height: 50px;
+    /*background-color: #999999;*/
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+}
+
+.other-method a {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #5bc0de;
+    margin: 0 17px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.other-method a:nth-child(2){
+    background-color: #d32f2f;
+}
+
+.other-method a:nth-child(3){
+    background-color: #03abee;
+}
+
+.other-method a:nth-child(4){
+    background-color: #00d20d;
+}
+
+.other-method a i{
+    display: block;
+    background-color: red;
+    width:18px;
+    height:18px;
+    margin: 6px auto;
+}
+
+#me_1{
+    background: url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png);
+    background-position: -19px 0;
+}
+
+#me_2{
+    background: url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png);
+    background-position: -38px 0;
+}
+
+#me_3{
+    width: 25px;
+    background: url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png);
+    background-position: -57px 0;
+}
+
+#me_4{
+    width: 24px;
+    background: url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png);
+    background-position: -83px 0;
+}
